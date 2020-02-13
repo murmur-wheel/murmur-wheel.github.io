@@ -2,6 +2,6 @@
 
 {% for post in paginator.posts %}
 
-- [{{ post.title }}]({{ site.baseurl }}/{{ post.url }})
+- [{{ post.title }}]({{ post.url }})
 
 {% endfor %}
