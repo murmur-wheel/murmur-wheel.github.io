@@ -1,4 +1,4 @@
-# articles
+# index
 
 ## posts 
 
