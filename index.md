@@ -4,7 +4,7 @@
 
 {% for post in paginator.posts %}
 
-- [{{ post.title }}]({{ post.url }})
+- {{ post.title }}
 
 {% endfor %}
 
