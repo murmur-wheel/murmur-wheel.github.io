@@ -7,7 +7,7 @@ title: Linux 命令行与 Shell 脚本编程大全
 - Linux 常见命令
 - Shell 编程
 
-# 常用软件
+# 常用命令
 
 - ps 进程管理
 - ls 列出文件
@@ -23,4 +23,4 @@ title: Linux 命令行与 Shell 脚本编程大全
 - 什么是子 Shell，在什么情况下会开启一个子 Shell
 - 返回值：$?
 - 流程控制：if / else, for, case, while
-- 函数：return 关键字，函数返回值
+- 函数：参数，返回值，return 和 local 关键字
