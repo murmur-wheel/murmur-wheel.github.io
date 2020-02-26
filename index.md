@@ -2,7 +2,7 @@
 
 ## posts 
 
-{% for post in paginator.posts %}
+{% for post in site.posts %}
 
 - {{ post.title }}
 
