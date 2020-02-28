@@ -7,7 +7,3 @@
 - [{{ post.title }}]({{ post.url }})
 
 {% endfor %}
-
-## notes
-
-## drafts
