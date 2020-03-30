@@ -69,3 +69,19 @@ runtime.GOMAXPROCS 调用的作用，限制全局的最大 processer 数目，�
 通过 Lua 脚本实现一个 tryLock 操作：如果 redis 中没有对应的 key，就设置一个 key 并获得锁。如果 redis 中已经存在一个 key，判断脚本执行时的时间 - 设置 key 的时间是否大于超时时间，如果大于超时时间，获得锁并更新锁的时间，否则不能获得锁。
 
 ### 集群扩容
+
+# linux
+
+## 内存结构
+
+从高到底： 内核，栈，堆，未初始化数据段，已初始化数据段，代码段。
+
+# shell
+
+## 常用命令
+
+1. 字符串：echo, printf, tail
+2. 文件系统：ls, cd, mkdir, mv, cp,
+3. 磁盘：mount, lsblk
+4. 网络：netstat, tcpdump, tc, nc
+5. 进程管理：kill, killall, wait, pidof
