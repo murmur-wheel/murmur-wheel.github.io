@@ -20,6 +20,15 @@ title: 常见面试题整理
 
 runtime.GOMAXPROCS 调用的作用，限制全局的最大 processer 数目，一般将其设为 CPU 核数。
 
+
+# C++
+
+## 什么时候编译器会生成一个 Default Constructor ?
+
+当程序员没有自己声明一个 Default Constructor 时，编译器会根据需要为其生成一个 Default Constructor，这个 constructor 没有什么用处，只是为了存在而存在。通常这个 Default Constructor 以 inline 或者 static 的形式给出，因此如果有多个 .cpp 文件实例化了该类，也不会存在冲突。
+
+## 在 constructor 会做些什么？
+
 # 数据库
 
 ## 事务的基本性质
@@ -108,7 +117,7 @@ runtime.GOMAXPROCS 调用的作用，限制全局的最大 processer 数目，�
 4. 网络：netstat, tcpdump, tc, nc
 5. 进程管理：kill, killall, wait, pidof
 
-# 系统设计题
+# 系统设计
 
 ## 有一千万个 IP，选出其中重复次数最多的前 K 个 IP
 
