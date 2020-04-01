@@ -40,7 +40,7 @@ runtime.GOMAXPROCS 调用的作用，限制全局的最大 processer 数目，�
 
 简称 ACID
 
-## 隔离性的级别
+## 事务的隔离性级别
 
 1. 可串行化
 2. 可重复读
