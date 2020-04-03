@@ -44,6 +44,7 @@ https://zboya.github.io/post/go_scheduler/
 
 简称 ACID
 
+<<<<<<< HEAD
 ## 数据库的乐观锁和悲观锁是什么？
 
 ## 使用索引查询一定能提高查询的性能么？为什么
@@ -63,6 +64,9 @@ https://zboya.github.io/post/go_scheduler/
 3. 3NF：消除了非主属性对于码的传递函数依赖，如果存在非主属性对于码的传递函数依赖，则不符合 3NF 的要求。
 
 ## 隔离性的级别
+=======
+## 事务的隔离性级别
+>>>>>>> origin/master
 
 1. 可串行化
 2. 可重复读
@@ -139,7 +143,7 @@ https://zboya.github.io/post/go_scheduler/
 4. 网络：netstat, tcpdump, tc, nc
 5. 进程管理：kill, killall, wait, pidof
 
-# 系统设计题
+# 系统设计
 
 ## 有一千万个 IP，选出其中重复次数最多的前 K 个 IP
 
