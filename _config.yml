@@ -1,3 +1,9 @@
-theme: jekyll-theme-minimal
+theme: jekyll-material-theme
 title: murmur wheel
-description: Make a great product.
+eamil: murmur.wheel@gmail.com
+description: software developer
+
+skills:
+  - name: c++
+  - name: graphics
+  - name: backend
