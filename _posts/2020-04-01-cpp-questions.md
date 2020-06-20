@@ -1,6 +1,7 @@
 ---
 author: murmur wheel
 title: C++ 常见面试题
+tags: ["cpp"]
 ---
 
 # C++ 常见面试题
