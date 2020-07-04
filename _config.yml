@@ -18,10 +18,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: blog
+title: 轱辘咕噜
 email: murmur.wheel@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  不怎么会写代码的 C++ 开发者的博客。分享知识，记录心得。
+  不怎么会写代码的 C++ 开发者的博客。
+  写博客是为了分享知识，记录心得，同时打发无聊的时间。
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  murmur-wheel
