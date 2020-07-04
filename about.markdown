@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 轱辘咕噜
+title: 关于
 permalink: /about/
 ---
 
