@@ -1,6 +1,6 @@
 ---
 author: murmur wheel
-title: 开发环境
+title: 常用工具
 ---
 
 ## 基础工具
@@ -26,3 +26,8 @@ title: 开发环境
 - `kafka`: 消息队列
 - `k8s`: 集群
 - `mysql`: 数据库
+
+## 包管理
+
+- `conan`
+- `vcpkg`

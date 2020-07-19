@@ -1,5 +1,13 @@
 用来写各种乱七八糟的东西的博客。
 
+## 预览
+
+执行 ./run.sh, 然后在容器内执行：
+
+```bash
+bundle exec jekyll serve
+```
+
 ## 在本地测试
 
 参考 https://docs.github.com/cn/github/working-with-github-pages/testing-your-github-pages-site-locally-with-jekyll
