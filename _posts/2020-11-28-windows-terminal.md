@@ -15,7 +15,7 @@ layout: post
 
 ## powerline
 
-首先要在系统中安装相应的格式：https://github.com/microsoft/cascadia-code
+首先要在系统中安装相应的格式，可以在这里下载安装：https://github.com/microsoft/cascadia-code
 
 然后在对应的 profile 中设置使用 powerline 字体，就是将 fontFace 字段设置为 *Cascadia Code PL*：
 
@@ -33,3 +33,5 @@ layout: post
 ```
 
 然后安装 ohmybash：https://github.com/ohmybash/oh-my-bash，并将 OSH_THEME 配置为 poweline
+
+> 如果要在 *VS Code* 中使用 powerline 格式，需要指定对应的字体
