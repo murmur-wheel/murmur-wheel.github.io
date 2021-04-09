@@ -31,3 +31,21 @@ title: 常用工具
 
 - `conan`
 - `vcpkg`
+
+## python
+
+### 编译安装 python
+
+依赖：
+
+https://devguide.python.org/setup/#install-dependencies
+
+源码：
+
+https://www.python.org/downloads/
+
+编译命令
+
+```
+./configure --prefix=/usr/local/python3.7
+```
