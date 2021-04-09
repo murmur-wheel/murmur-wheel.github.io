@@ -40,6 +40,8 @@ title: 常用工具
 
 https://devguide.python.org/setup/#install-dependencies
 
+sudo apt install uuid-dev
+
 源码：
 
 https://www.python.org/downloads/
